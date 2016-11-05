@@ -1,5 +1,3 @@
-import sys
-sys.path.insert(0, '/home/solar/fc/solar-caffe-cudnnv5/python')
 import caffe
 import numpy as np
 import lmdb

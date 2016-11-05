@@ -1,5 +1,5 @@
 # The train/test net protocol buffer definition
-net: "examples/center_loss/train.prototxt"
+net: "train.prototxt"
 # test_iter specifies how many forward passes the test should carry out.
 # In the case of MNIST, we have test batch size 100 and 100 test iterations,
 # covering the full 10,000 testing images.
@@ -21,6 +21,6 @@ max_iter: 10000
 # snapshot intermediate results
 snapshot: 5000
 # solver mode: CPU or GPU
-snapshot_prefix: "examples/center_loss/loss_"
+snapshot_prefix: "loss"
 solver_mode: GPU
 #debug_info: true
