@@ -1,0 +1,8 @@
+message LayerParameter {
+	optional CenterLossParameter center_loss_param = 200;
+}
+message CenterLossParameter{
+  optional float loss_weight = 1 [default = 0.003];
+  optional float alpha = 2 [default = 0.5];
+  required uint32 cluster_num = 3;
+}
